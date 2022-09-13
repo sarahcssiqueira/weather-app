@@ -3,7 +3,6 @@
     margin: 0px;
 }
 .container{
-
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -25,8 +24,6 @@
     font-family: 'Abel', sans-serif;
     animation-name: introduction;
     animation-duration: 2s;
-    
-   
 }
 .row1{
     width: 50%;
@@ -101,17 +98,13 @@
 @keyframes introduction {
     0%{
         bottom: -320px;
-        opacity: 0;
-        
+        opacity: 0;    
     }
-    100%{
-        
+    100%{   
         opacity:1;
         bottom: 0px;
     }
 }
-
-
 
 @media screen and (max-width: 480px) {
     
@@ -135,9 +128,5 @@
     }
     .container{
         height: 130vh;
-    }
-    
-    
-   
-    
+    }   
 }

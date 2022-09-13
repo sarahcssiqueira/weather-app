@@ -35,8 +35,7 @@ $(document).ready(function () {
                         $('.temp-type').html('°C');
                     }
                 });
-
-
+                
                 //SETTING UP THE ICON 
                 var icons = new Skycons({
                     "color": "white"
